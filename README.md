@@ -1,2 +1,1 @@
-This is a python based program to encrypt -> send
-|-> recieve -> decrypt files so that no one but the person with the program can read the sent files
+This is a python based program to send an email and change the time that it was sent to something crazy like April 1, 1692
