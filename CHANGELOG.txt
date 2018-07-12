@@ -1,0 +1,6 @@
+---  July 11 / 18  ---
+: Uploaded files
+: Has subject, body 
+: Works when actual information is given
+: Does not work on school computers as there are policies in place that prevent smtplib from working
+-----------------------------------------------------------------------------------------------------
