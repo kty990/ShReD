@@ -6,3 +6,7 @@
 : Works when actual information is given
 : Does not work on school computers as there are policies in place that prevent smtplib from working
 -----------------------------------------------------------------------------------------------------
+--- July 11 / 18 (11:41 PM MST) ---
+: Added spam features
+: Took out useless list at beginning
+------------------------------------------
