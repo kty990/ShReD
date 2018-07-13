@@ -14,4 +14,5 @@
 : Added a bootleg contact system
 : Bug fixes
 : Version counter added
-------------------------------------------
+: Still some errors with the contact system (doesn't print the target out so i cannot confirm it works)
+------------------------------------------------------------------------------------------------------
