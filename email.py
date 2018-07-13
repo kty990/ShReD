@@ -6,19 +6,27 @@ print("Contacts do not reset when file is closed...")
 contact_name = "n/a"
 contact_email = "n/a"
 
-contacts = open("contacts.txt", "w")
+
 name_ = open("name.txt", "w")
+contacts = open("contacts.txt", "w")
 
 def getContacts(name, email):
+    contacts = open("contacts.txt", "w")
     contacts.write("\n" + email)
     contacts.close()
+    name_ = open("name.txt", "w")
     name_.write("\n" + name)
     name_.close()
 
 def useContacts(name):
-    if name.readline(i) == name:
+    i = 1
+    name_ = open("name.txt", "r")
+    contacts = open("contacts.txt", "r")
+    check = name_.readline(i)
+    if check == name:
         target = email.readline(i)
-    elif name.readline(i) == "":
+        print(target)
+    elif name_.readline(i) == "":
         print("Your contact does not exist!")
         pass
     else:
@@ -32,7 +40,8 @@ while contact_name != "" and contact_email != "":
     else:
         print("Ok, I see you have no more contacts to add, lets continue with the scheduled program")
 
-
+testContact_name = input("-> ")
+useContacts(testContact_name)
 content = 'content'
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
