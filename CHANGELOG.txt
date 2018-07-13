@@ -10,3 +10,7 @@
 : Added spam features
 : Took out useless list at beginning
 ------------------------------------------
+--- July 12 / 18 ---
+: Fixed username to go with prompt
+: Not tested yet
+------------------------------------------
