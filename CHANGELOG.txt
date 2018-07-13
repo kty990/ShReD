@@ -12,4 +12,6 @@
 : Fixed username to go with prompt
 : Not tested yet
 : Added a bootleg contact system
+: Bug fixes
+: Version counter added
 ------------------------------------------
